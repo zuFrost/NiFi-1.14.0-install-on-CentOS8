@@ -15,6 +15,7 @@
 
 ## 02 Установка
 Основной мануал установки <https://nifi.apache.org/docs/nifi-docs/html/getting-started.html#downloading-and-installing-nifi>
+
 Требования к OS - [System Requirements](https://nifi.apache.org/docs/nifi-docs/html/administration-guide.html#system_requirements)
 
 `подготовка системы`
