@@ -1,11 +1,11 @@
 # Установка NiFi 1.14.0 на CentOS 8
-01 Параметры сервера
-02 Установка
-03 Запуск NiFi
-04 Настройка
-05 Тюнинг OS
+- 01 Параметры сервера
+- 02 Установка
+- 03 Запуск NiFi
+- 04 Настройка
+- 05 Тюнинг OS
 
-## Параметры сервера
+## 01 Параметры сервера
 Установка по данной инструкции проводилась на разнообразные виртуальные машины в разных средах.
 Минимальная конфигурация, на которой проверялась установка следующая:
 - OS - CentOS8
@@ -16,6 +16,7 @@
 ## 02 Установка
 Основной мануал установки <https://nifi.apache.org/docs/nifi-docs/html/getting-started.html#downloading-and-installing-nifi>
 Требования к OS - [System Requirements](https://nifi.apache.org/docs/nifi-docs/html/administration-guide.html#system_requirements)
+
 `подготовка системы`
 ```sh
 $ sudo -i # заходим в root
@@ -88,7 +89,7 @@ Cоздаём директорию /opt/nifi-server куда будет уста
 в результате путь к скрипту запуска должен быть следующим /opt/nifi-server/nifi/bin/nifi.sh
 
 Установка закончена, первый запуск должен производиться перед настройкой nifi в файле /opt/nifi-server/nifi/conf/nifi.properties иначе сервер запускаться не будет.
-## Запуск NiFi
+## 03 Запуск NiFi
 Основная страница [How to install and start NiFi](https://nifi.apache.org/docs/nifi-docs/html/administration-guide.html#how-to-install-and-start-nifi)
 
 /opt/nifi-server/nifi/bin/nifi.sh можно запускать с следующими параметрами:
